@@ -1,0 +1,214 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  color: #fff;
+  background: #0f0f0f;
+  position: relative; /* Important for positioning the particles container */
+  min-height: 100vh; /* Ensure body takes at least the full viewport height */
+  font-size: 16px; /* Base font size for rem units */
+}
+
+#particles-js {
+  position: fixed; /* Keep it fixed to the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  color: #aaa;
+  font-style: italic;
+  font-size: 1rem; /* Using rem for better scaling */
+}
+
+/* About Us Section */
+.about-us {
+  padding: 2rem;
+  background: #1a1a1a;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-us h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #00f7ff;
+  font-size: 1.5rem; /* Using rem */
+}
+
+.about-us p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1rem; /* Using rem */
+}
+
+/* Cars Section */
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.car-card {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.car-card h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem; /* Using rem */
+}
+
+.car-card p {
+  margin: 0.5rem 0;
+  padding-left: 0; /* Reset default list padding */
+  font-size: 0.9rem; /* Using rem */
+}
+
+.car-card ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  font-size: 0.9rem; /* Using rem */
+}
+
+.price {
+  margin-top: 0.5rem;
+  font-size: 1.1rem; /* Using rem */
+  text-align: center;
+}
+
+.buy-now {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #00f7ff;
+  color: #000;
+  padding: 0.75rem 1.25rem; /* Adjusted padding */
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem; /* Using rem */
+}
+
+.buy-now:hover {
+  background: #00c2cc;
+  transform: scale(1.05);
+}
+
+/* Coming Soon Section */
+.coming-soon {
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.coming-soon h2 {
+  font-size: 1.5rem; /* Using rem */
+}
+
+.coming-soon p {
+  font-size: 1rem; /* Using rem */
+}
+
+.coming-soon-logo img {
+  width: 150px;
+  margin-top: 1rem;
+}
+
+/* Contact Us Section */
+.contact-us {
+  padding: 2rem;
+  background: #1a1a1a;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #00f7ff;
+  font-size: 1.5rem; /* Using rem */
+}
+
+.contact-us p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1rem; /* Using rem */
+}
+
+.contact-us a {
+  color: #00f7ff;
+  text-decoration: none;
+}
+
+.contact-us a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #222;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.
